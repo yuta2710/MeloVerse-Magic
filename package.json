@@ -1,0 +1,20 @@
+{
+  "name": "meloverse-magic-backend",
+  "version": "1.0.0",
+  "description": "Welcome to CelebTunes Extravaganza, an electrifying music show experience that brings together the biggest celebrities and most talented singers in the industry for an unforgettable night of entertainment and melodies.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuta2710/MeloVerse-Magic-Backend.git"
+  },
+  "author": "Yuta Okkotsu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuta2710/MeloVerse-Magic-Backend/issues"
+  },
+  "homepage": "https://github.com/yuta2710/MeloVerse-Magic-Backend#readme"
+}
