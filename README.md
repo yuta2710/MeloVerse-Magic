@@ -5,7 +5,6 @@ Welcome to CelebTunes Extravaganza, an electrifying music show experience that b
 
 The MeloVerse-Magic-API provides a RESTful interface, allowing clients to access and interact with various resources related to events, bookings, users, and celebrities. Through this API, users can browse and book tickets for their favorite music shows, view detailed event information, check celebrity profiles, and manage their bookings.
 
-# Models: 
 #   Event:
 
 + Event ID
