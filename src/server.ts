@@ -1,14 +1,16 @@
 import express from "express";
 import colors from "colors";
-import * as dotenv from "dotenv";
+import dotenv from "dotenv";
 import cors from "cors";
 import http from "http";
-// import env from "./types/env";
+import connectDB from "./configs/db";
 
 const app = express();
 
 // Load environment variables from the .env file
-dotenv.config({ path: __dirname + "/.env" });
+dotenv.config();
+
+connectDB();
 
 app.use(express.json());
 
@@ -20,7 +22,7 @@ app.use(
 
 const server = http.createServer(app);
 
-console.log(process.env.PORT);
+// console.log(process.env.PORT);
 
 server.listen(process.env.PORT || 5000, () => {
   console.log(
